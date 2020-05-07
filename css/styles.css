@@ -24,7 +24,7 @@ padding: 0;
 }
 
 .jumbotron{
-  background-image:url("images/bh-bg.svg");
+  background-image:url("/images/bh-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
