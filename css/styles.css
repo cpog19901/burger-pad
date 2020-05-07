@@ -12,7 +12,7 @@ body{
 }
 
 .logo-header{
-  max-width: 15%;
+  max-width: 20%;
 }
 
 .logo-title{
@@ -24,8 +24,11 @@ padding: 0;
 }
 
 .jumbotron{
-  background-color: #fcbe03;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+
 }
 
 
@@ -40,11 +43,12 @@ padding: 0;
 
 .burger-text-container, .wings-text-container{
   font-family: 'Anton', sans-serif;
+
   position: absolute;
   bottom: 0;
   left: 0;
   color: white;
-  background-color: #fcbe03;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg.svg");
   padding: 2%;
   border-radius: 5px;
 }
@@ -73,8 +77,10 @@ padding: 0;
   color: white;
   font-weight: bold;
   font-size: 3rem;
-  margin: 3% 0;
-  background-color: #fcbe03;
+  margin: 1% 0;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 3%;
   text-align: center;
 }
@@ -85,10 +91,11 @@ padding: 0;
 
 .menu-type{
   /* margin: 3% 0; */
-  border: 3px solid orange;
+  border: 3px solid #fb5900;
   display: block;
   padding: 1%;
   height: 100%;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
 }
 
 .col-menu{
@@ -97,7 +104,7 @@ padding: 0;
 
 .menu-type-title{
   font-weight: bold;
-  background-color: orange;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg.svg");
   color: white;
   padding: 2% 0;
 }
@@ -133,8 +140,10 @@ padding: 0;
 }
 
 .booking-form{
-  background-color: orange;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg.svg");
   padding: 4% 0;
+  color: white;
+  font-weight: bold;
 }
 
  input{
@@ -143,20 +152,25 @@ padding: 0;
   width: 60%;
   padding: 2%;
   border-radius: 10px;
-  border: 3px solid orange;
+  border: 3px solid #fb5900;
   text-align: center;
 }
 
 .submit-button{
   width: 30%;
   font-family: 'Anton', sans-serif;
-  color: orange;
+  color: #fb5900;
 
 }
 
 .booking-burger-img{
   width: 100%;
-  height: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.booking-image{
+  vertical-align: middle;
 }
 
 .reservation{
@@ -168,12 +182,13 @@ padding: 0;
 }
 
 .review-box{
-  background-color: #d48e0d;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg.svg");
   color: white;
-  padding: 2% 2%;
+  padding: 5% 2%;
   /* margin-bottom: 2%; */
   vertical-align: middle;
   height: 100%;
+
 
 }
 
@@ -183,8 +198,8 @@ background-color: white;
 }
 
 .col-review{
-  margin-top: 4%;
-  margin-bottom: 2%;
+  margin-top: 2%;
+
 
 }
 .review-burger{
@@ -192,17 +207,18 @@ background-color: white;
 }
 
 input{
-  color:#ba7d02;
+  color:#fb5900;
   font-weight: bold;
 }
 
 label{
   color: white;
   font-weight: bold;
+  display: block;
 }
 
 select{
-  color: #ba7d02;
+  color: #fb5900;
 }
 
 .contact-us{
@@ -210,12 +226,13 @@ select{
 }
 
 .contact-h3{
-  color: #d48e0d;
+  color: #fb5900;
 }
 
 .contact-us-info{
-  border: 2px solid #ba7d02;
+  border: 2px solid #fb5900;
   height: 100%;
+  background-image:url("images/bh-bg-w.svg");
 }
 
 .contact-us-info p{
@@ -223,16 +240,18 @@ select{
 }
 
 .info-icon{
-  color: #d48e0d;
+  color: #fb5900;
   margin-top: 4%;
 }
 
 .contact-us p{
   line-height: 0.5;
+  font-weight: bold;
 }
 
 .opening-hours{
-  background-color: #d48e0d;
+  border: 2px solid #ad4207;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg.svg");
   color: white;
   padding: 4%;
   display: block;
@@ -253,10 +272,11 @@ select{
 
 .waiter{
 
-  margin: 2%;
+
   display: inline-block;
-  max-width: 75%;
+  max-width: 100%;
   text-align: center;
+  margin-bottom: 1%;
 }
 
 footer{
@@ -272,4 +292,8 @@ footer{
 
 iframe{
   padding-bottom: 4%;
+}
+
+.info-icon{
+  /* margin-bottom: 5%; */
 }
