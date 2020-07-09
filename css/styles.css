@@ -1,9 +1,15 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 1%;
+
 }
 
 .burger-image, .wings-image {
   max-width: 100%;
+  margin-bottom: 0;
 }
 
 .logo{
@@ -24,7 +30,7 @@ padding: 0;
 }
 
 .jumbotron{
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg.svg");
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-orange.svg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -48,7 +54,7 @@ padding: 0;
   bottom: 0;
   left: 0;
   color: white;
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg.svg");
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-orange.svg");
   padding: 2%;
   border-radius: 5px;
 }
@@ -61,9 +67,13 @@ padding: 0;
   position: relative;
 }
 
-.menu{
+.section-break{
+  /* padding-top: 2%; */
+}
+
+#menu{
   text-align: center;
-  margin-top: 4%;
+  /* margin-top: 4%; */
   font-family: 'Caveat', cursive;
 }
 
@@ -78,33 +88,42 @@ padding: 0;
   font-weight: bold;
   font-size: 3rem;
   margin: 1% 0;
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3%;
   text-align: center;
 }
 
+.menu-title{
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-orange.svg");
+}
+
 .menu-dish{
   margin-top: 3%;
 }
 
+
+
 .menu-type{
   /* margin: 3% 0; */
-  border: 3px solid #fb5900;
+  border: 3px solid #e9290f;
   display: block;
   padding: 1%;
   height: 100%;
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg-w.svg");
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+
 }
 
 .col-menu{
   margin-bottom: 2%;
+
 }
 
 .menu-type-title{
   font-weight: bold;
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg.svg");
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-orange.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   padding: 2% 0;
 }
@@ -120,12 +139,14 @@ padding: 0;
   flex-wrap: wrap;
 }
 
-.reservation{
+#reservation{
   text-align: center;
 }
 
 .res-title{
-  margin-top: 5%;
+  /* margin-top: 5%; */
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-wine.svg");
+
 }
 
 .booking-container{
@@ -140,41 +161,65 @@ padding: 0;
 }
 
 .booking-form{
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg.svg");
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-wine.svg");
   padding: 4% 0;
   color: white;
   font-weight: bold;
+
+}
+
+.booking-form p{
+  padding: 4%;
 }
 
  input{
   display: block;
   margin: 2% auto;
   width: 60%;
-  padding: 2%;
+  padding: 4%;
   border-radius: 10px;
-  border: 3px solid #fb5900;
+  border: 3px solid #c40018;
   text-align: center;
+  color: #c40018;
+}
+
+
+
+form{
+  color: #c40018;
 }
 
 .submit-button{
   width: 30%;
   font-family: 'Anton', sans-serif;
-  color: #fb5900;
+  color: #c40018;
 
 }
 
 .booking-burger-img{
   width: 100%;
-  height: auto;
-  vertical-align: middle;
+}
+
+.pic-holder{
+  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+
+  background-size: cover;
 }
 
 .booking-image{
-  vertical-align: middle;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+
+  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
 }
 
 .reservation{
-  margin: 5% 0;
+  /* margin: 5% 0; */
+}
+
+.gallery-title{
+  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-gray.svg");
 }
 
 .gallery{
@@ -182,7 +227,7 @@ padding: 0;
 }
 
 .review-box{
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg.svg");
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-orange.svg");
   color: white;
   padding: 5% 2%;
   /* margin-bottom: 2%; */
@@ -206,8 +251,18 @@ background-color: white;
   width: 100%;
 }
 
+.review-burger-container{
+  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.review-title{
+  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-orange.svg");
+}
+
 input{
-  color:#fb5900;
+  color:#c40018;
   font-weight: bold;
 }
 
@@ -218,21 +273,27 @@ label{
 }
 
 select{
-  color: #fb5900;
+  color: #c40018;
 }
 
-.contact-us{
+.contact{
+  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-orange.svg");
+}
+
+#contact-us{
   text-align: center;
 }
 
 .contact-h3{
-  color: #fb5900;
+  color: #e9290f;
 }
 
 .contact-us-info{
-  border: 2px solid #fb5900;
+  border: 2px solid #e9290f;
   height: 100%;
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg-w.svg");
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-us-info p{
@@ -240,22 +301,25 @@ select{
 }
 
 .info-icon{
-  color: #fb5900;
+  color: #e9290f;
   margin-top: 4%;
 }
 
-.contact-us p{
+#contact-us p{
   line-height: 0.5;
   font-weight: bold;
 }
 
 .opening-hours{
-  border: 2px solid #ad4207;
-  background-image:url("https://raw.githubusercontent.com/cpog19901/burger-pad/master/images/bh-bg.svg");
+  border: 2px solid #e9290f;
+  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-orange.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   padding: 4%;
   display: block;
   text-align: center;
+  height: 100%;
 }
 
 .opening-hours h3{
@@ -270,13 +334,20 @@ select{
   margin-bottom: 5%;
 }
 
+.waiter-container{
+  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2%;
+}
+
 .waiter{
+width: 100%;
+}
 
 
-  display: inline-block;
-  max-width: 100%;
-  text-align: center;
-  margin-bottom: 1%;
+.waiter-2{
+  width: 100%;
 }
 
 footer{
@@ -296,4 +367,20 @@ iframe{
 
 .info-icon{
   /* margin-bottom: 5%; */
+}
+
+@media only screen and (min-width: 992px) {
+
+  .waiter{
+    width: 50%;
+  }
+
+  .review-burger{
+    width: 50%;
+  }
+
+
+
+
+
 }

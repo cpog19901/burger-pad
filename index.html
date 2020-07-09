@@ -42,19 +42,19 @@
       <!-- <span class ="navbar-text" style="color:white; font-weight:bold; font-size: 1.5rem;">Burger Hero</span> -->
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="menu-link nav-link" href="#">Menu</a>
+          <a class="menu-link nav-link" href="#menu">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="menu-link nav-link" href="#">Make a Reservation</a>
+          <a class="menu-link nav-link" href="#reservation">Make a Reservation</a>
         </li>
         <li class="nav-item">
-          <a class="menu-link nav-link" href="#">Gallery</a>
+          <a class="menu-link nav-link" href="#gallery">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="menu-link nav-link" href="#">Reviews</a>
+          <a class="menu-link nav-link" href="#reviews">Reviews</a>
         </li>
         <li class="nav-item">
-          <a class="menu-link nav-link" href="#">Contact Us</a>
+          <a class="menu-link nav-link" href="#contact-us">Contact Us</a>
         </li>
       </ul>
   </nav>
@@ -76,7 +76,7 @@
       <div class="col-lg-6">
         <div class="wings-info">
           <div class="wings-image-container">
-            <img class="wings-image" src="https://realfood.tesco.com/media/images/RFO-1400x919-ChickenWings-2e43d373-9e6e-4ef7-ae32-99124616b11f-0-1400x919.jpg" alt="">
+            <img class="wings-image" src="https://foodieandwine.com/wp-content/uploads/2020/01/AirFryerChickenWingsRecipe.jpg" alt="">
           </div>
           <div class="wings-text-container">
             <h1 class="wings-text">Delicious Sides</h1>
@@ -86,7 +86,9 @@
     </div>
   </div>
 
-  <div class="menu">
+<!-- <img class="section-break" src="images/section-break.svg" alt=""> -->
+
+  <section id="menu">
     <h1 class="heading menu-title">Menu</h1>
     <div class="row ">
       <div class="col-menu col-md-6 col-lg-3 menu-col">
@@ -170,15 +172,15 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="reservation">
+  </section>
+<!-- <img class="section-break" src="images/section-break.svg" alt=""> -->
+  <section id="reservation">
     <div class="heading res-title">
       <h1>Make a Reservation</h1>
     </div>
     <!-- <div class="booking-container"> -->
   <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 pic-holder">
       <div class="booking-image">
       <img class="booking-burger-img" src="https://www.leebropos.com/wp-content/uploads/2016/05/attract-maintain-customers-1.jpg" alt="">
       </div>
@@ -193,9 +195,9 @@
       <p>Please fill in the required information below so we can book you a table</p>
 
       <form class="" action="index.html" method="post">
-        <input type="text" name="" value="Name">
-        <input type="text" name="" value="Contact number">
-        <input type="email" name="" value="Email address">
+        <input type="text" name="" value="Name" onfocus="this.value=''">
+        <input type="text" name="" value="Contact number" onfocus="this.value=''">
+        <input type="email" name="" value="Email address" onfocus="this.value=''">
       </form>
         <input type="date" id="start" name="trip-start" value="2018-07-22" min="2020-01-01" max="2020-12-31">
 
@@ -219,11 +221,11 @@
   </div>
 <!-- </div> -->
 </div>
-</div>
-
+</section>
+<!-- <img class="section-break" src="images/section-break.svg" alt=""> -->
 <div class="gallery">
   <div class="heading gallery-title">
-    <h1>Gallery</h1>
+    <h1 id="gallery">Gallery</h1>
   </div>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -234,13 +236,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="car-image d-block w-100" src="https://www.readersdigest.ca/wp-content/uploads/sites/14/2015/11/gourmet-burger.jpg" alt="First slide">
+      <img class="car-image d-block w-100" src="https://storage.googleapis.com/zagat-article-ss/Red_Hen_Mark_Silva_DC.jpg" alt="First slide" width="200">
     </div>
     <div class="carousel-item">
-      <img class="car-image d-block w-100" src="https://www.8days.sg/image/10579688/16x9/1920/1080/91584d1261a2123f5baf815f5b0738b8/nZ/8ea1607---artichoke-decor.jpg" alt="Second slide">
+      <img class="car-image d-block w-100" src="https://www.8days.sg/image/10579688/16x9/1920/1080/91584d1261a2123f5baf815f5b0738b8/nZ/8ea1607---artichoke-decor.jpg" width="200" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="car-image d-block w-100" src="https://static.vinepair.com/wp-content/uploads/2017/11/50-best-cocktails-inside.jpg" alt="Third slide">
+      <img class="car-image d-block w-100" src="https://static.vinepair.com/wp-content/uploads/2017/11/50-best-cocktails-inside.jpg" width="200" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -252,8 +254,8 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-<div class="reviews">
+<!-- <img class="section-break" src="images/section-break.svg" alt=""> -->
+<section id="reviews">
   <div class="heading review-title">
     <h1>Reviews</h1>
   </div>
@@ -360,7 +362,9 @@
 
 </div>
 
-<div class="contact-us">
+</section>
+<!-- <img class="section-break" src="images/section-break.svg" alt=""> -->
+<section id="contact-us">
   <div class="heading contact">
     <h1>Contact Us</h1>
   </div>
@@ -369,8 +373,13 @@
 
 <div class="row">
   <div class="col-md-12">
+    <div class="waiter-container">
+
+
 <img class="waiter" src="https://upserve.com/media/sites/2/bigstock-Waitress-Welcoming-Restaurant-297929641.jpg" alt="">
 </div>
+</div>
+
 <div class="col-md-6">
   <div class="opening-hours">
     <i class="clock far fa-clock fa-5x"></i>
@@ -416,7 +425,7 @@
 
 </div>
 </div>
-</div>
+</section>
 
 <footer>
   <i class="fab fa-twitter-square fa-2x"></i>
