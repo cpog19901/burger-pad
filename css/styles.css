@@ -54,7 +54,7 @@ padding: 0;
   bottom: 0;
   left: 0;
   color: white;
-  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-orange.svg");
+  background-image:url("../images/background-orange.svg");
   padding: 2%;
   border-radius: 5px;
 }
@@ -95,7 +95,7 @@ padding: 0;
 }
 
 .menu-title{
-  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-orange.svg");
+  background-image:url("../images/background-dark-orange.svg");
 }
 
 .menu-dish{
@@ -121,7 +121,7 @@ padding: 0;
 
 .menu-type-title{
   font-weight: bold;
-  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-orange.svg");
+  background-image:url("../images/background-dark-orange.svg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -145,7 +145,7 @@ padding: 0;
 
 .res-title{
   /* margin-top: 5%; */
-  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-wine.svg");
+  background-image:url("../images/background-wine.svg");
 
 }
 
@@ -161,7 +161,7 @@ padding: 0;
 }
 
 .booking-form{
-  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-wine.svg");
+  background-image:url("../images/background-wine.svg");
   padding: 4% 0;
   color: white;
   font-weight: bold;
@@ -201,7 +201,7 @@ form{
 }
 
 .pic-holder{
-  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+  background-image: url("../images/bh-bg-w.svg");
 
   background-size: cover;
 }
@@ -211,7 +211,7 @@ position: relative;
 top: 50%;
 transform: translateY(-50%);
 
-  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+  background-image: url("../images/bh-bg-w.svg");
 }
 
 .reservation{
@@ -219,7 +219,7 @@ transform: translateY(-50%);
 }
 
 .gallery-title{
-  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-gray.svg");
+  background-image: url("../images/background-dark-gray.svg");
 }
 
 .gallery{
@@ -227,7 +227,7 @@ transform: translateY(-50%);
 }
 
 .review-box{
-  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-orange.svg");
+  background-image:url("../images/background-orange.svg");
   color: white;
   padding: 5% 2%;
   /* margin-bottom: 2%; */
@@ -252,13 +252,13 @@ background-color: white;
 }
 
 .review-burger-container{
-  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+  background-image: url("../images/bh-bg-w.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .review-title{
-  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-orange.svg");
+  background-image: url("../images/background-orange.svg");
 }
 
 input{
@@ -277,7 +277,7 @@ select{
 }
 
 .contact{
-  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-orange.svg");
+  background-image: url("../images/background-dark-orange.svg");
 }
 
 #contact-us{
@@ -291,7 +291,7 @@ select{
 .contact-us-info{
   border: 2px solid #e9290f;
   height: 100%;
-  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+  background-image:url("../images/bh-bg-w.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -312,7 +312,7 @@ select{
 
 .opening-hours{
   border: 2px solid #e9290f;
-  background-image:url("C:/Users/Ciaran/Desktop/Burger Pad/images/background-dark-orange.svg");
+  background-image:url("../images/background-dark-orange.svg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -335,7 +335,7 @@ select{
 }
 
 .waiter-container{
-  background-image: url("C:/Users/Ciaran/Desktop/Burger Pad/images/bh-bg-w.svg");
+  background-image: url("../images/bh-bg-w.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 2%;
